@@ -19,12 +19,7 @@ class School
     end
     
     def sort
-      new_key = {}
-      roster.each do |x, y|
-        new_key[x] = y.sort
-      end
-      new_key
-    end
+   
   end
   
   
